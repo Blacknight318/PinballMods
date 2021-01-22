@@ -14,21 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector_Generic_MountingPin:Conn_02x07_Counter_Clockwise_MountingPin J2
-U 1 1 5FF3D6BF
-P 5350 3650
-F 0 "J2" H 5400 4167 50  0001 C CNN
-F 1 "Conn_02x07_Counter_Clockwise_MountingPin" H 5350 2950 50  0001 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 5350 3650 50  0001 C CNN
-F 3 "~" H 5350 3650 50  0001 C CNN
-	1    5350 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small_US R8
+L Device:R_Small_US R9
 U 1 1 5FF4481B
 P 6150 3350
-F 0 "R8" V 6263 3350 50  0001 C CNN
+F 0 "R9" V 6263 3350 50  0001 C CNN
 F 1 "R_Small_US" V 6264 3350 50  0001 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 6150 3350 50  0001 C CNN
 F 3 "~" H 6150 3350 50  0001 C CNN
@@ -36,10 +25,10 @@ F 3 "~" H 6150 3350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small_US R9
+L Device:R_Small_US R10
 U 1 1 5FF45935
 P 6150 3450
-F 0 "R9" V 6263 3450 50  0001 C CNN
+F 0 "R10" V 6263 3450 50  0001 C CNN
 F 1 "R_Small_US" V 6264 3450 50  0001 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 6150 3450 50  0001 C CNN
 F 3 "~" H 6150 3450 50  0001 C CNN
@@ -47,10 +36,10 @@ F 3 "~" H 6150 3450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small_US R10
+L Device:R_Small_US R11
 U 1 1 5FF461A4
 P 6150 3550
-F 0 "R10" V 6263 3550 50  0001 C CNN
+F 0 "R11" V 6263 3550 50  0001 C CNN
 F 1 "R_Small_US" V 6264 3550 50  0001 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 6150 3550 50  0001 C CNN
 F 3 "~" H 6150 3550 50  0001 C CNN
@@ -58,10 +47,10 @@ F 3 "~" H 6150 3550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small_US R11
+L Device:R_Small_US R12
 U 1 1 5FF466FC
 P 6150 3650
-F 0 "R11" V 6263 3650 50  0001 C CNN
+F 0 "R12" V 6263 3650 50  0001 C CNN
 F 1 "R_Small_US" V 6264 3650 50  0001 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 6150 3650 50  0001 C CNN
 F 3 "~" H 6150 3650 50  0001 C CNN
@@ -69,10 +58,10 @@ F 3 "~" H 6150 3650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small_US R12
+L Device:R_Small_US R13
 U 1 1 5FF4686E
 P 6150 3750
-F 0 "R12" V 6263 3750 50  0001 C CNN
+F 0 "R13" V 6263 3750 50  0001 C CNN
 F 1 "R_Small_US" V 6264 3750 50  0001 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 6150 3750 50  0001 C CNN
 F 3 "~" H 6150 3750 50  0001 C CNN
@@ -80,10 +69,10 @@ F 3 "~" H 6150 3750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small_US R13
+L Device:R_Small_US R14
 U 1 1 5FF46986
 P 6150 3850
-F 0 "R13" V 6263 3850 50  0001 C CNN
+F 0 "R14" V 6263 3850 50  0001 C CNN
 F 1 "R_Small_US" V 6264 3850 50  0001 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 6150 3850 50  0001 C CNN
 F 3 "~" H 6150 3850 50  0001 C CNN
@@ -91,10 +80,10 @@ F 3 "~" H 6150 3850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small_US R14
+L Device:R_Small_US R15
 U 1 1 5FF46B0A
 P 6150 3950
-F 0 "R14" V 6263 3950 50  0001 C CNN
+F 0 "R15" V 6263 3950 50  0001 C CNN
 F 1 "R_Small_US" V 6264 3950 50  0001 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 6150 3950 50  0001 C CNN
 F 3 "~" H 6150 3950 50  0001 C CNN
@@ -117,7 +106,7 @@ L Device:R_Small_US R2
 U 1 1 5FF4736D
 P 4800 3450
 F 0 "R2" V 4913 3450 50  0001 C CNN
-F 1 "R1" V 4914 3450 50  0001 C CNN
+F 1 "R2" V 4914 3450 50  0001 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 4800 3450 50  0001 C CNN
 F 3 "~" H 4800 3450 50  0001 C CNN
 	1    4800 3450
@@ -206,28 +195,6 @@ Wire Wire Line
 	5650 3450 6050 3450
 Wire Wire Line
 	5650 3350 6050 3350
-$Comp
-L Connector_Generic_MountingPin:Conn_01x07_MountingPin J1
-U 1 1 5FF55A6E
-P 4250 3650
-F 0 "J1" H 4337 3568 50  0001 L CNN
-F 1 "Conn_01x07_MountingPin" H 4338 3613 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" H 4250 3650 50  0001 C CNN
-F 3 "~" H 4250 3650 50  0001 C CNN
-	1    4250 3650
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector_Generic_MountingPin:Conn_01x07_MountingPin J3
-U 1 1 5FF56D5A
-P 6700 3650
-F 0 "J3" H 6788 3568 50  0001 L CNN
-F 1 "Conn_01x07_MountingPin" H 6788 3523 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" H 6700 3650 50  0001 C CNN
-F 3 "~" H 6700 3650 50  0001 C CNN
-	1    6700 3650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4450 3350 4700 3350
 Wire Wire Line
@@ -256,4 +223,67 @@ Wire Wire Line
 	6500 3850 6250 3850
 Wire Wire Line
 	6250 3950 6500 3950
+$Comp
+L Device:R_Small_US R8
+U 1 1 600A6520
+P 4800 4050
+F 0 "R8" V 5005 4050 50  0001 C CNN
+F 1 "R_Small_US" V 4913 4050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 4800 4050 50  0001 C CNN
+F 3 "~" H 4800 4050 50  0001 C CNN
+	1    4800 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R16
+U 1 1 600A6C48
+P 6150 4050
+F 0 "R16" V 6263 4050 50  0001 C CNN
+F 1 "R_Small_US" V 6264 4050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 6150 4050 50  0001 C CNN
+F 3 "~" H 6150 4050 50  0001 C CNN
+	1    6150 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x08_Male J1
+U 1 1 600A8ACB
+P 4250 3650
+F 0 "J1" H 4358 4131 50  0000 C CNN
+F 1 "Conn_01x08_Male" H 4358 4040 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 4250 3650 50  0001 C CNN
+F 3 "~" H 4250 3650 50  0001 C CNN
+	1    4250 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x08_Male J3
+U 1 1 600A9E0D
+P 6700 3750
+F 0 "J3" H 6672 3632 50  0000 R CNN
+F 1 "Conn_01x08_Male" H 6672 3723 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 6700 3750 50  0001 C CNN
+F 3 "~" H 6700 3750 50  0001 C CNN
+	1    6700 3750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x08_Counter_Clockwise J2
+U 1 1 600ABC38
+P 5350 3650
+F 0 "J2" H 5400 4167 50  0000 C CNN
+F 1 "Conn_02x08_Counter_Clockwise" H 5400 4076 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_Socket" H 5350 3650 50  0001 C CNN
+F 3 "~" H 5350 3650 50  0001 C CNN
+	1    5350 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 4050 4700 4050
+Wire Wire Line
+	4900 4050 5150 4050
+Wire Wire Line
+	5650 4050 6050 4050
+Wire Wire Line
+	6250 4050 6500 4050
 $EndSCHEMATC
