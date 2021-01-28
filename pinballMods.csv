@@ -1,0 +1,5 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;",";"PinHeader_1x08_P2.54mm_Vertical";2;"Conn_01x08_Male";;;
+2;"";"DIP-16_W7.62mm_Socket";1;"Conn_02x08_Counter_Clockwise";;;
+3;",,,,,,,,,,,,,,";"R_0805_2012Metric_Pad1.20x1.40mm_HandSolder";15;"R_Small_US";;;
+4;"";"R_0805_2012Metric_Pad1.20x1.40mm_HandSolder";1;"R2";;;
